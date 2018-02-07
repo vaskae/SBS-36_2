@@ -14,8 +14,8 @@
        <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
        
        <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/normalize.css" type="text/css">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -23,7 +23,7 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        
+        <div class="twinkling">
          <header>
        <div class="wrapper">
        <section id="header">
@@ -37,7 +37,7 @@
                        <li><a href="">Missions</a></li>
                        <li><a href="">Multimudia</a></li>
                        <li><a href="">Connect</a></li>
-                       <li><a href="">Aboutnasa</a></li>
+                       <li><a href="">About nasa</a></li>
                    </ul>
                </div>
                <div class="header_search">
@@ -335,65 +335,71 @@
                  <!--start calendar-->
                  <div class="calendar">
                      
-                     <div class="month">      
-  <ul>
-    <li class="prev">&#10094;</li>
-    <li class="next">&#10095;</li>
-    <li>
-      August 
-      2017<br/>
-    </li>
-  </ul>
-</div>
-
-
-
-<ul class="days">  
-  <li>1</li>
-  <li>2</li>
-  <li>3</li>
-  <li>4</li>
-  <li>5</li>
-  <li>6</li>
-  <li>7</li>
-  <li>8</li>
-  <li>9</li>
-  <li><span class="active">10</span></li>
-  <li>11</li>
-  <li>12</li>
-  <li>13</li>
-  <li>14</li>
-  <li>15</li>
-  <li>16</li>
-  <li>17</li>
-  <li>18</li>
-  <li>19</li>
-  <li>20</li>
-  <li>21</li>
-  <li>22</li>
-  <li>23</li>
-  <li>24</li>
-  <li>25</li>
-  <li>26</li>
-  <li>27</li>
-  <li>28</li>
-  <li>29</li>
-  <li>30</li>
-  <li>31</li>
- <li><span class="blank">2</span></li>
- <li><span class="blank">2</span></li>
- <li><span class="blank">2</span></li>
- <li><span class="blank">2</span></li>
- <li><span class="blank">2</span></li>
- <li><span class="blank">2</span></li>
- <li><span class="blank">2</span></li>
- <li><span class="blank">2</span></li>
- <li><span class="blank">2</span></li>
-</ul>
-                     
-                     
-                     
-                 </div>
+                    <div class="cal_head">
+    <button><img src="images/right_arrow.png"/></button>
+    <h2>July 2013</h2>
+    <button><img src="images/left_arrow.png"/></button>
+  </div>
+<table>
+  
+  <tr>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+    <td>11</td>
+    <td>12</td>
+  </tr>
+  <tr>
+    <td class="mark">13</td>
+    <td>14</td>
+    <td>15</td>
+    <td>16</td>
+    <td class="selected">17</td>
+    <td>18</td>
+    <td>19</td>
+  </tr>
+  <tr>
+    <td class="mark">20</td>
+    <td>21</td>
+    <td>22</td>
+    <td>23</td>
+    <td>24</td>
+    <td>25</td>
+    <td>26</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>28</td>
+    <td>29</td>
+    <td>30</td>
+    <td>31</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td height="20"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+     </div>                
+               
+                 
                  <!--end calendar-->
                  <div class="nc_blog_button">
                         <input type="button" name="gbutton" value="View All NASA Blogs" >
@@ -620,6 +626,7 @@
                 
             </section>
         </div>
+		</div>
        <!-----Footer end------>
         
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
@@ -636,3 +643,4 @@
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
     </body>
 </html>
+
